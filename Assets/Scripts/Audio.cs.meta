@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 08b7ab6cd245e954d9d681f726986652
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicAus: {instanceID: 0}
+  - sfxAus: {instanceID: 0}
+  - shooting: {instanceID: 0}
+  - win: {fileID: 8300000, guid: c18915490ed616b49adf9351e2a47a14, type: 3}
+  - lose: {fileID: 8300000, guid: a3c168fda73031047978e75a8e02981f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

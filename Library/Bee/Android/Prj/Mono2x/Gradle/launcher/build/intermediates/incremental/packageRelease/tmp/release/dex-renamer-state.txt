@@ -1,0 +1,4 @@
+#Fri Nov 04 18:54:25 ICT 2022
+base.0=G\:\\Unity\\ShootingBirds\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

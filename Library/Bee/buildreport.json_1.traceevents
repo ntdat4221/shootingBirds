@@ -1,0 +1,655 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667563030640219, "dur": 357493, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030640390, "dur": 1272, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030641662, "dur": 14315, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030655979, "dur": 167726, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030823706, "dur": 172123, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030995831, "dur": 1880, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030997859, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667563030713757, "dur": 89943, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030714602, "dur": 31399, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030791789, "dur": 3325, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030795117, "dur": 8579, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030795666, "dur": 7733, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030807000, "dur": 1060, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667563030806379, "dur": 1700, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030997908, "dur": 56, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667563030840743, "dur":451, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030841197, "dur":100, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667563030841320, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667563030841342, "dur":248, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667563030841607, "dur":320, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030841927, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981055, "dur":168, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981224, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981235, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981238, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981243, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981243, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981248, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981249, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981253, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981253, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981256, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981257, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981261, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981261, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981265, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981266, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981269, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981274, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981278, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981281, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981282, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981286, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981299, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030981335, "dur":1365, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667563030841649, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030841933, "dur":2934, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030844875, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667563030844876, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030844937, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667563030844942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030852091, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667563030853367, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667563030853449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030853789, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667563030854833, "dur":11905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1667563030866740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030866743, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1667563030868064, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030868141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030868145, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030870402, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030870495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030870498, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030874104, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030874158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030874161, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030877202, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030877252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030877255, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030879112, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030879144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030879146, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030880996, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030881006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030881010, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030882825, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030882864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030882866, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030884297, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030884303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030884315, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030886136, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030886144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030886148, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030888853, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030888995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030888998, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667563030891189, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667563030891199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030891203, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667563030893390, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667563030893400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667563030893404, "dur":7958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667563030901371, "dur":79690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030841668, "dur":267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030841935, "dur":2939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030844874, "dur":7253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667563030852130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030853348, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667563030854858, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667563030855157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030855161, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667563030856468, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030856531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030856534, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030857601, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030857654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030857657, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030858945, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030859007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030859011, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030860411, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030860474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030860478, "dur":6816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030867302, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030867349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030867352, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030869361, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030869421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030869425, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030871437, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030871485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030871488, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030875351, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030875402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030875407, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030877731, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030877738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030877740, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030879616, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030879669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030879672, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030881604, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030881754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030881757, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030883586, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030883596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030883599, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030886841, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030886849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030886852, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667563030890364, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030890378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030890382, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030891906, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030891915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030891917, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030894003, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030894011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030894015, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667563030895355, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1667563030895364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030895367, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1667563030897273, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667563030897303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667563030897308, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667563030898413, "dur":82637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667563030841688, "dur":252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667563030841940, "dur":2933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667563030844875, "dur":7619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667563030852507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667563030853350, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667563030854556, "dur":53219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667563030907777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667563030907814, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667563030910632, "dur":70423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030841705, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030841943, "dur":2929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030844879, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667563030845043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030853465, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667563030854446, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1667563030854540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030854546, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1667563030855612, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030855665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030856001, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030857009, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030857078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030857081, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030858528, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030858580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030858582, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030859594, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030860066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030860070, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030867167, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030867234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030867239, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030869334, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030869457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030869462, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030871788, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030871837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030871839, "dur":3996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030875842, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030875904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030875907, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030878508, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030878568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030878571, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030880445, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030880493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030880496, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030882266, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030882283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030882286, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030884146, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030884153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030884156, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030886097, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030886109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030886124, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030889031, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030889079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030889082, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667563030891126, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667563030891137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667563030891156, "dur":7801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667563030898967, "dur":82081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030841721, "dur":225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030841947, "dur":2935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030844882, "dur":7538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667563030852421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030852923, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667563030854407, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667563030854477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030854483, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667563030856105, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030856193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030856379, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030858145, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030858209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030858213, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030859115, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030859175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030859178, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030860503, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030860554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030860557, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030867630, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030867694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030867697, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030869394, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030869438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030869440, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030871508, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030871561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030871564, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030875268, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030875330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030875333, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030877645, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030877870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030877873, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030880095, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030880135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030880138, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030881849, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030881857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030881860, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030883593, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030883603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030883606, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030885367, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030885376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030885381, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030887254, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030887263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030887275, "dur":5112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667563030892395, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1667563030892402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030892405, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1667563030894201, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1667563030894259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030894263, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1667563030895766, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1667563030895774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030895778, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1667563030897344, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1667563030897355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667563030897359, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1667563030898548, "dur":82500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030841741, "dur":209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030841950, "dur":2929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030844881, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667563030845061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030853093, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667563030853884, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1667563030854691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030854696, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1667563030855274, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030855326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030856001, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030857156, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030857214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030857227, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030858757, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030858839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030858843, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030860134, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030860187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030860190, "dur":6932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030867131, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030867202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030867206, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030869225, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030869281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030869284, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030871321, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030871368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030871371, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030875215, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030875262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030875264, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030877910, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030877988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030878030, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030880105, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030880148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030880151, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030881851, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030881858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030881861, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030883555, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030883576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030883581, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030885187, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030885199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030885203, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030886959, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030886967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030886969, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667563030889682, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667563030889693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030889913, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667563030890665, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667563030890672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030890674, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667563030892265, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667563030892272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667563030892274, "dur":9108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667563030901390, "dur":79667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030841766, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030841954, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030844881, "dur":7541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1667563030852424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030852924, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1667563030854513, "dur":6175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030860690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030862410, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030864768, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030864821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030864824, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030868114, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030868215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030868219, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030870428, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030870482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030870485, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030873930, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030873983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030873986, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030876880, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030876933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030876936, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030878969, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030879012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030879015, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030880822, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030881200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030881204, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030883278, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030883333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030883336, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030885062, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030885073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030885077, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030886949, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030886956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030886958, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667563030890369, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667563030890380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030890383, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667563030892722, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667563030892730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030892734, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667563030894646, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1667563030894704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030894708, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1667563030896801, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1667563030896808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030896811, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1667563030897629, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1667563030897684, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667563030897691, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1667563030898571, "dur":82478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030841784, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030841956, "dur":2915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030844875, "dur":7479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1667563030852356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030853247, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1667563030854057, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1667563030854114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030854141, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1667563030855092, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1667563030855167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030855953, "dur":11865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1667563030867843, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030867896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030867899, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030870097, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030870148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030870151, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030872019, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030872098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030872101, "dur":4406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030876514, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030876601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030876604, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030878493, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030878658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030878661, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030880459, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030880503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030880506, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030882274, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030882322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030882325, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030883949, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030883956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030883959, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030885695, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030885711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030885715, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030887766, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030887772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030887775, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667563030890945, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667563030890952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667563030890955, "dur":6758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667563030897723, "dur":83330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667563030841800, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667563030841959, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667563030844885, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1667563030845067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667563030852880, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1667563030854642, "dur":116553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667563030971198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667563030971203, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667563030981033, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1667563030981034, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030841814, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030841962, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030844882, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1667563030845197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030852832, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1667563030854239, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1667563030855031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030855038, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1667563030856178, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030856240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030856387, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030857547, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030857599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030857602, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030859060, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030859121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030859125, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030860469, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030860569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030860572, "dur":7287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030867873, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030867937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030867942, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030870205, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030870268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030870272, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030873759, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030873816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030873820, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030876789, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030876889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030876894, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030878928, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030878979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030878982, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030880709, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030880746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030880749, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030882439, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030882507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030882510, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030884145, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030884159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030884163, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030885968, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030885977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030885981, "dur":4313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667563030890304, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1667563030890350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030890356, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1667563030891491, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1667563030891498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030891501, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1667563030894981, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level8" }}
+,{ "pid":12345, "tid":10, "ts":1667563030894991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030894994, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level8" }}
+,{ "pid":12345, "tid":10, "ts":1667563030896959, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1667563030896967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667563030896970, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1667563030897916, "dur":83136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030841829, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030841965, "dur":2912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030844877, "dur":7349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1667563030852229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030853288, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1667563030855095, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030855207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030855982, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030856865, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030856941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030856946, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030858439, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030858506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030858510, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030859690, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030859812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030859815, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030863103, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030863162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030863165, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030868036, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030868103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030868107, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030870274, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030870397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030870402, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030874078, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030874517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030874520, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030877513, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030877696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030877700, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030880066, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030880111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030880114, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030881707, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030881714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030881716, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030883233, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030883285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030883288, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030885081, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030885091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030885096, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030886705, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030886717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030886722, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030889547, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030889663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030890353, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667563030891088, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667563030891098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030891101, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667563030893179, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1667563030893186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030893189, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1667563030895054, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level7" }}
+,{ "pid":12345, "tid":11, "ts":1667563030895060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030895063, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level7" }}
+,{ "pid":12345, "tid":11, "ts":1667563030897081, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1667563030897091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667563030897095, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1667563030898155, "dur":82899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030841845, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030841967, "dur":2908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030844875, "dur":7900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1667563030852777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030853335, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1667563030854468, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1667563030854540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030854546, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1667563030857199, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030857266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030857270, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030858659, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030858743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030858748, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030859932, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030860015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030860018, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030863203, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030863280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030863283, "dur":5120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030868411, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030868495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030868499, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030870690, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030870729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030870732, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030874115, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030874164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030874166, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030877034, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030877086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030877089, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030879034, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030879087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030879091, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030880908, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030880945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030880957, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030882741, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030882787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030882790, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030884255, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030884262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030884265, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030886145, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030886152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030886155, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667563030889590, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1667563030889645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030890110, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1667563030890674, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667563030890684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030890688, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667563030892287, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667563030892293, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030892296, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667563030894655, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level9" }}
+,{ "pid":12345, "tid":12, "ts":1667563030894663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030894667, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level9" }}
+,{ "pid":12345, "tid":12, "ts":1667563030895886, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1667563030895893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030895895, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1667563030897401, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1667563030897410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667563030897413, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AORUS/Desktop/Final/ShootingBirds_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1667563030898555, "dur":82496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667563030983368, "dur":1240, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667563030997983, "dur": 296, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667563030997851, "dur": 437, "ph": "X", "name": "Write chrome-trace events", "args": {} },
